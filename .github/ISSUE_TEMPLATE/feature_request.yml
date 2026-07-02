@@ -1,0 +1,62 @@
+name: Verbesserung vorschlagen
+description: Schlage eine neue Funktion oder Verbesserung vor
+title: "[Idee]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke für deinen Vorschlag. Bitte möglichst konkret beschreiben, was dir fehlt oder was besser werden könnte.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Welches Problem soll gelöst werden?
+      description: Beschreibe kurz, was aktuell umständlich, unklar oder nicht möglich ist.
+      placeholder: Beispiel: Ich möchte Gerichte schneller wiederverwenden können, ohne sie neu einzugeben.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Gewünschte Lösung
+      description: Was sollte die App deiner Meinung nach können?
+      placeholder: Beispiel: Eine Favoritenliste für häufig gekochte Gerichte.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative Ideen
+      description: Gibt es andere Wege, wie man das lösen könnte?
+      placeholder: Optional.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Bereich der App
+      options:
+        - Speiseplan
+        - Einkaufsliste
+        - Rezepte / Gerichte
+        - Haushalt / Mitglieder
+        - Login / Konto
+        - Design / Bedienung
+        - Benachrichtigungen
+        - Sonstiges
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Warum wäre das hilfreich?
+      description: Was würde dadurch einfacher, schneller oder besser werden?
+      placeholder: Beispiel: Spart Zeit bei der Wochenplanung.
+    validations:
+      required: false
