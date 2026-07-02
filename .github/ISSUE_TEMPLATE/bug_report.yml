@@ -14,7 +14,7 @@ body:
     attributes:
       label: Was ist passiert?
       description: Beschreibe kurz und klar, was nicht funktioniert.
-      placeholder: Beispiel: Beim Öffnen der Einkaufsliste stürzt die App ab.
+      placeholder: "Beispiel: Beim Öffnen der Einkaufsliste stürzt die App ab."
     validations:
       required: true
 
@@ -66,7 +66,7 @@ body:
     attributes:
       label: Gerät
       description: Welches Gerät nutzt du?
-      placeholder: Beispiel: Pixel 9 Pro, Samsung Galaxy S23, iPhone, Windows PC
+      placeholder: "Beispiel: Pixel 9 Pro, Samsung Galaxy S23, iPhone, Windows PC"
     validations:
       required: false
 
@@ -75,7 +75,7 @@ body:
     attributes:
       label: Browser
       description: Falls du die Webversion nutzt.
-      placeholder: Beispiel: Chrome, Edge, Firefox, Safari
+      placeholder: "Beispiel: Chrome, Edge, Firefox, Safari"
     validations:
       required: false
 
@@ -84,7 +84,7 @@ body:
     attributes:
       label: App-Version
       description: Falls bekannt.
-      placeholder: Beispiel: 1.0.3
+      placeholder: "Beispiel: 1.0.3"
     validations:
       required: false
 
@@ -102,6 +102,6 @@ body:
     attributes:
       label: Weitere Hinweise
       description: Alles, was sonst noch wichtig sein könnte.
-      placeholder: Beispiel: Tritt nur im WLAN auf / nur nach Login / nur bei bestimmten Listen.
+      placeholder: "Beispiel: Tritt nur im WLAN auf / nur nach Login / nur bei bestimmten Listen."
     validations:
       required: false

@@ -14,7 +14,7 @@ body:
     attributes:
       label: Deine Frage
       description: Was möchtest du wissen?
-      placeholder: Beispiel: Wie kann ich ein Haushaltsmitglied einladen?
+      placeholder: "Beispiel: Wie kann ich ein Haushaltsmitglied einladen?"
     validations:
       required: true
 
