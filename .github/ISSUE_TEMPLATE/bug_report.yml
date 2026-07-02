@@ -1,0 +1,107 @@
+name: Fehler melden
+description: Melde einen Fehler in der App
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke fürs Melden. Bitte keine Passwörter, privaten Haushaltsdaten oder sensiblen Screenshots posten.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Was ist passiert?
+      description: Beschreibe kurz und klar, was nicht funktioniert.
+      placeholder: Beispiel: Beim Öffnen der Einkaufsliste stürzt die App ab.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zum Nachstellen
+      description: Wie kann man den Fehler reproduzieren?
+      placeholder: |
+        1. App öffnen
+        2. Haushalt auswählen
+        3. Einkaufsliste öffnen
+        4. Fehler tritt auf
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes Verhalten
+      description: Was hättest du erwartet?
+      placeholder: Die Einkaufsliste sollte normal geladen werden.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Tatsächliches Verhalten
+      description: Was passiert stattdessen?
+      placeholder: Die App friert ein / stürzt ab / zeigt eine Fehlermeldung.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Plattform
+      options:
+        - Android App
+        - Webbrowser am Handy
+        - Webbrowser am PC
+        - Sonstiges
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Gerät
+      description: Welches Gerät nutzt du?
+      placeholder: Beispiel: Pixel 9 Pro, Samsung Galaxy S23, iPhone, Windows PC
+    validations:
+      required: false
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: Falls du die Webversion nutzt.
+      placeholder: Beispiel: Chrome, Edge, Firefox, Safari
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: App-Version
+      description: Falls bekannt.
+      placeholder: Beispiel: 1.0.3
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Ziehe Screenshots hier rein, falls hilfreich. Bitte vorher private Daten unkenntlich machen.
+      placeholder: Screenshot hier einfügen.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Weitere Hinweise
+      description: Alles, was sonst noch wichtig sein könnte.
+      placeholder: Beispiel: Tritt nur im WLAN auf / nur nach Login / nur bei bestimmten Listen.
+    validations:
+      required: false
