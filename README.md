@@ -1,5 +1,27 @@
 # Was gibbet zu essen? - Feedback & Bug Reports
 
-Hier können Tester Fehler melden, Verbesserungsvorschläge einreichen oder Fragen zur App stellen.
+Dieses Repository dient nur zum Sammeln von Feedback, Fehlern und Verbesserungsvorschlägen für die App.
 
-Bitte keine Passwörter, privaten Daten, echten Haushaltsdaten oder sensiblen Screenshots posten.
+Der Quellcode der App liegt in einem privaten Repository und ist hier nicht enthalten.
+
+## Fehler melden
+
+Bitte nutze den Button **New issue** und wähle **Fehler melden**.
+
+Hilfreich sind:
+
+- Was ist passiert?
+- Wie kann man den Fehler nachstellen?
+- Welches Gerät wurde verwendet?
+- Android App oder Webversion?
+- Screenshot, falls sinnvoll
+
+Bitte keine Passwörter, privaten Haushaltsdaten oder sensiblen Screenshots posten.
+
+## Verbesserung vorschlagen
+
+Neue Ideen und Verbesserungsvorschläge sind willkommen. Bitte beschreibe kurz:
+
+- Was ist aktuell umständlich?
+- Was soll besser werden?
+- Warum wäre das hilfreich?
